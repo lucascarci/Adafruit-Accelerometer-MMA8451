@@ -128,30 +128,30 @@ accelY = event.acceleration.y;
 
 //  Serial.print("Y: \t"); Serial.print(event.acceleration.y); Serial.print("\t");
   Serial.println(event.acceleration.y);
-s
+
 
 // if statement begining for ACCELERATION LEVELS
     digitalWrite(stasis, HIGH);
 
-  if (accelY > 2) {
+  if (accelY > 5) {
     digitalWrite(s1a, HIGH);
   } else {
     digitalWrite(s1a, LOW);
   };
 
-  if (accelY > 4 ) {
+  if (accelY > 10 ) {
     digitalWrite(s2a, HIGH);
   } else {
     digitalWrite(s2a, LOW);
   };
 
-  if (accelY > 6) {
+  if (accelY > 15) {
     digitalWrite(s3a, HIGH);
   } else {
     digitalWrite(s3a, LOW);
   };
 
-  if (accelY > 8) {
+  if (accelY > 20) {
     digitalWrite(s4a, HIGH);
   } else {
     digitalWrite(s4a, LOW);
