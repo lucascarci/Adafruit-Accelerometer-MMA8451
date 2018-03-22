@@ -17,3 +17,4 @@ WHITE LEDs: Position on axis (GYROSCOPE)
 5V input into Accelerometer used (3V Does not work)
 Total of 9 LEDs (4 White, 5 Blue) connected to Digital Output Pins
 
+See documentation video here: www.vimeo.com
